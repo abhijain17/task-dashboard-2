@@ -55,23 +55,20 @@ Runs on http://localhost:3000
 ### Demo
 
 **Dashboard Preview**  
-`./screenshots/dashboard.png`  
+![Dashboard](./screenshots/dashboard.png)  
 
 **Add Task**  
-`./screenshots/add-task.png`  
+![Add Task](./screenshots/add-task.png)  
 
-**Task List**  
-`./screenshots/task-list.png`  
+**Dark Theme**  
+![Dark Theme](./screenshots/dark-theme.png)  
 
-*(Replace the above placeholders with your actual screenshots stored in a `/screenshots` folder.)*
-
----
 
 ### How to Use
 
 1. Start the backend:  
 ```bash
-cd backend && npm run dev
+cd backend && npm start
 ```
 Runs on http://localhost:5000
 
@@ -99,6 +96,25 @@ Runs on http://localhost:3000
 - React DnD / @hello-pangea/dnd: Drag-and-drop Kanban functionality  
 
 ---
+
+### Features
+
+- ✅ Task CRUD: Create, read, update, delete tasks  
+- ✅ Kanban Board: Drag-and-drop tasks between statuses  
+- ✅ Task Details: View title, description, due date, timestamps  
+- ✅ Add/Edit Tasks: Modal popup with form validation  
+- ✅ Responsive Design: Works on desktop and mobile  
+- ✅ Dark/Light Theme Toggle  
+- ✅ Professional UI: Styled with Tailwind CSS  
+
+### ➕ Extras Implemented
+
+- Kanban Board with drag-and-drop (React DnD)  
+- Dark/Light theme toggle  
+- Custom status column support (user can create new statuses)  
+- Client-side form validation  
+- Fully responsive design
+
 
 ### Author
 
